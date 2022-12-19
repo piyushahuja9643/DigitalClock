@@ -1,0 +1,279 @@
+p{
+    margin: 0px;
+}
+
+.container{
+    background-color: purple;
+    width: 90%;
+    height:100vh;
+    border: 1px solid purple;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    padding-left:100px ;
+}
+.left{
+    height:90vh;
+    width:45%;
+    border-radius: 5px;
+    
+}
+.right{
+    height:90vh;
+    width:45%;
+    border-radius: 5px;
+}
+.clock{
+    margin-left: 50px ;
+    margin-top: 30px;
+    height:13%;
+    padding-top: 10px;
+}
+.box{
+    background-color: white;
+    padding-top: 10px;
+    width:530px;
+    border-radius: 5px;
+}
+.box1{
+    display: flex;
+    
+}
+.sun{
+    margin-left:50px ;
+}
+.head1{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.default1{
+    position: relative;
+    left: 40px;    
+}
+select{
+    width:200px;
+    height:30px;
+    
+}
+option{
+    font-size: 15px;
+    text-align: center; 
+}
+.box2{
+    width:48px;
+    height:30px;
+    margin-left: 65px;
+    border-left: 2px solid lightgray;
+}
+.box3{
+    display: flex;
+}
+.spoon{
+    margin-left:50px ;
+}
+.head2{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.default2{ 
+    position: relative;
+    left: 60px;
+}
+.box4{
+    width:48px;
+    height:30px;
+    margin-left: 50px;
+    margin-left: 65px;
+    border-left: 2px solid lightgray;
+
+}
+.box5{
+    display: flex;
+}
+.nap{
+    margin-left:50px ;
+}
+.head3{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.default3{
+    position: relative;
+    left: 80px;    
+}
+.box6{
+    width:48px;
+    height:30px;
+    margin-left: 50px;
+    margin-left: 65px;
+    border-left: 2px solid lightgray;
+
+}
+.box7{
+    display: flex;
+}
+.spoon1{
+    margin-left:50px ;
+}
+.head4{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.default4{
+    position: relative;   
+    left: 65px;  
+
+}
+.middle{
+    background-color: violet;
+    color: white;
+    text-align: center;
+    border-radius:5px ;
+    border: 1px solid violet;
+    height:50px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+.alarm
+{
+    background-image: linear-gradient(
+        to right ,
+        violet ,
+        pink
+    );
+    width:200px;
+    height:40px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    align-items: center;
+}
+.time{
+    background-color: violet;
+    width:200px;
+    height:117px;
+    color: pink;
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 13px;
+    padding:5px;
+
+}
+.top1{
+    width:405px;
+    height: 70px;
+    background-color: white;
+    border: 1ps solid white;
+    border-radius: 5px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2px;
+    align-items: center;
+}
+#image2{
+    height:70px;
+}
+.con1{
+    color: blueviolet;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.con2{
+    background-color: lightpink;
+    padding: 10px;
+    border-radius: 5px;
+    height: 30px;
+    width:50px;
+    text-align: center;   
+}
+.con3{
+    font-weight: bold;
+    font-size: 30px;
+}
+.con4{
+    background-color: lightpink;
+    padding: 10px;
+    border-radius: 5px;
+    height: 30px;
+    width:50px;
+    text-align: center;
+}
+.con5{
+    font-weight: bold;
+    font-size: 30px;
+}
+.con6{
+    background-color: lightpink;
+    padding: 10px;
+    border-radius: 5px;
+    height: 30px;
+    width:50px;
+    text-align: center;
+}
+.con7{
+    background-image: url("./Ambgimg.png");
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    padding-top:20px ;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.top2{
+    width:250px;
+    height: 90px;
+    background-color: lightgray;
+    position: absolute;
+    border-radius: 5px;
+    margin-left: 75px;
+    
+}
+.top3{
+    width:350px;
+    height: 80px;
+    background-color: lightslategrey;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1px;
+    margin-left: 30px;
+    
+}
+.middle1{
+    background-color: white;
+    color: purple;
+    border: 1px solid white;
+    height: 60px;
+    width: 400px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+#image{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    margin-top:20px ;
+}
+.last1{ 
+  width: 80%;
+  height: 50%;
+  background-color: white;
+  background-image: url(./EveningTime.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 5px;
+}
+Footer
